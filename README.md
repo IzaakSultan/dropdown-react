@@ -10,7 +10,7 @@ A react dropdown component
 ### Usage
 
 ```javascript
-import Dropdown, {DropdownDivider, DropdownCheckbox, DropdownItem, DropdownLink} from '../lib';
+import Dropdown, {DropdownDivider, DropdownCheckbox, DropdownItem, DropdownLink} from 'dropdown-react';
 
 import 'dropdown-react/dist/index.css';
 
@@ -27,5 +27,4 @@ function Example() {
         </div>
     );
 }
-
 ```

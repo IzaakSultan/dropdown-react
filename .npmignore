@@ -11,3 +11,4 @@ coverage
 
 webpack.config.js
 webpack.dist.config.js
+npm-debug.log

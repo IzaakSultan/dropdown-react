@@ -3,9 +3,9 @@ module.exports = {
         'examples': './examples/examples.js'
     },
     output: {
-        filename: '[name].js',
-        path: 'examples/dist',
-        publicPath: '/dist/'
+        filename: 'bundle.js',
+        path: 'examples/',
+        publicPath: '/'
     },
     module: {
         loaders: [
