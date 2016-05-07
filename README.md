@@ -4,6 +4,9 @@
 
 A react dropdown component
 
+### Example
+[https://izaaksultan.github.io/dropdown-react/](https://izaaksultan.github.io/dropdown-react/)
+
 ### Installation
 `npm install dropdown-react`
 
