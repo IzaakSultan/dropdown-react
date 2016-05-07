@@ -1,5 +1,6 @@
 lib
 examples
+coverage
 
 .babelrc
 .coveralls.yml
@@ -8,6 +9,5 @@ examples
 .travis.yml
 .gitignore
 
-README.md
 webpack.config.js
 webpack.dist.config.js
