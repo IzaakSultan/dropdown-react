@@ -1,3 +1,5 @@
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
     entry: {
         'react-dropdown': './lib/index.js'
@@ -19,7 +21,14 @@ module.exports = {
                 test: /.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'babel'
+            },
+            {
+                test: /.scss$/,
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
             }
         ]
-    }
+    },
+    plugins: [
+        new ExtractTextPlugin('index.css')
+    ]
 };

@@ -1,0 +1,13 @@
+lib
+examples
+
+.babelrc
+.coveralls.yml
+.eslinltignore
+.eslintrc.js
+.travis.yml
+.gitignore
+
+README.md
+webpack.config.js
+webpack.dist.config.js

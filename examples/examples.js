@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 
 import Dropdown, {DropdownDivider, DropdownCheckbox, DropdownItem, DropdownLink} from '../lib';
 
-import '../lib/scss/index.scss';
-
 function Example() {
     return (
         <div>
