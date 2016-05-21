@@ -1,12 +1,12 @@
 {
   "name": "dropdown-react",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A react dropdown component",
   "repository": {
     "type": "git",
     "url": "git://github.com/izaaksultan/dropdown-react.git"
   },
-  "main": "index.js",
+  "main": "dist/react-dropdown.js",
   "scripts": {
     "examples": "webpack --config webpack.config.js --progress --colors --watch",
     "build": "webpack --config webpack.dist.config.js --progress --colors",
@@ -48,6 +48,6 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^15.0.2"
+    "react": "^15.0.1"
   }
 }
