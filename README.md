@@ -17,17 +17,23 @@ import Dropdown, {DropdownDivider, DropdownCheckbox, DropdownItem, DropdownLink}
 
 import 'dropdown-react/dist/index.css';
 
-function Example() {
-    return (
-        <div>
-            <Dropdown label="Click Me!">
-                <DropdownItem>Dropdown Item!</DropdownItem>
-                <DropdownDivider />
-                <DropdownLink href="http://google.com">I am a link!</DropdownLink>
-                <DropdownDivider />
-                <DropdownCheckbox>Check me</DropdownCheckbox>
-            </Dropdown>
-        </div>
-    );
+class Example extends React.Component {
+    state = {
+        checked: false
+    };
+
+    render() {
+        return (
+            <div>
+                <Dropdown label="Click Me!">
+                    <DropdownItem>Dropdown Item!</DropdownItem>
+                    <DropdownDivider />
+                    <DropdownLink href="http://google.com">I am a link!</DropdownLink>
+                    <DropdownDivider />
+                    <DropdownCheckbox checked={this.state.checked} onChange={checked => this.setState({checked})}>Check me</DropdownCheckbox>
+                </Dropdown>
+            </div>
+        );
+    }
 }
 ```
